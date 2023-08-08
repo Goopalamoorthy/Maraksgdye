@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/GT_MOVIES1/4')
+                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/Monk_kbot')
             ],
             [
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -47,9 +47,9 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('💥 Main Channal 💥', url='https://t.me/GT_MOVIES1'),
+            InlineKeyboardButton('💥 Main Channal 💥', url='https://t.me/Monk_kbot'),
 
-            InlineKeyboardButton('🔎 Search Group 🔍', url='https://t.me/+YzD_kSaE-l04NzY1')
+            InlineKeyboardButton('🔎 Search Group 🔍', url='https://t.me/+JQLREpLZfmA5MzI1')
 
             ],[
 
@@ -104,8 +104,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Channel 💥', url='https://t.me/GT_MOVIES1'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+YzD_kSaE-l04NzY1')
+            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Channel 💥', url='https://t.me/Monk_kbot'),
+            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/+JQLREpLZfmA5MzI1')
             ],[
             InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
             ],[
